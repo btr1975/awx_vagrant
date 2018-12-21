@@ -22,7 +22,7 @@ end
 * Install directions, this is also located in the shell script
 ```shell
 # Step 1:
-#     Modify the following lines in /awx/installers/inventory
+#     Modify the following lines in /awx/installer/inventory
 #
 #     modify
 #     postgres_data_dir=/tmp/pgdocker <- Base line
@@ -32,7 +32,7 @@ end
 #     docker_compose_dir=/var/lib/awx
 #
 # Step 2:
-#     Run the following command from /awx/installers directory
+#     Run the following command from /awx/installer directory
 #     ansible-playbook -i inventory install.yml
 #
 ```
